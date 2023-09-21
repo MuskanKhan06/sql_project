@@ -1,24 +1,6 @@
-SELECT TOP (1000) [UniqueID ]
-      ,[ParcelID]
-      ,[LandUse]
-      ,[PropertyAddress]
-      ,[SaleDate]
-      ,[SalePrice]
-      ,[LegalReference]
-      ,[SoldAsVacant]
-      ,[OwnerName]
-      ,[OwnerAddress]
-      ,[Acreage]
-      ,[TaxDistrict]
-      ,[LandValue]
-      ,[BuildingValue]
-      ,[TotalValue]
-      ,[YearBuilt]
-      ,[Bedrooms]
-      ,[FullBath]
-      ,[HalfBath]
-  FROM [portfolio project].[dbo].[nashvillehousing]
 
+         --DATA CLEANING IN SQL
+	
   select * from [portfolio project].dbo.nashvillehousing
 
   -- Standardize Date Format
